@@ -15,6 +15,12 @@ Update the `scripts/install.sh` script to manage what packages are installed dur
 
 ### Build Default Ubuntu Version
 
+Install required plugins:
+
+```shell
+$ packer init ubuntu.pkr.hcl
+```
+
 Run the Packer build. By default an Ubuntu 22.04 (jammy) image is built:
 
 ```shell
